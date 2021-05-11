@@ -11,4 +11,13 @@
 // console.log(person.display())
 
 
-console.log(document)
+//console.log(document)
+
+
+let heading = document.getElementById('test')
+
+heading.innerText = "Mobile Operating System"
+
+
+
+
