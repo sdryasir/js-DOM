@@ -12,11 +12,18 @@
 
 
 //console.log(document)
+// let heading = document.getElementById('test')
+
+// heading.innerText = "Mobile Operating System"
 
 
-let heading = document.getElementById('test')
+let lis = document.getElementsByTagName('li')
 
-heading.innerText = "Mobile Operating System"
+for (let i = 0; i < lis.length; i++) {
+    lis[i].style.color = 'red'
+}
+
+
 
 
 
